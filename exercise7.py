@@ -8,12 +8,7 @@
 
 names = ["Dylan", "Jon", "Camiel", "Lila", "Basheer", "Nicole"]
 
-awesome_names = []
-def awesome(names):
-    for name in names:
-        awesome_names.append(name + "is awesome!")
-        # print(name) # same as below 
-        
-awesome(names)
-for name in awesome_names:
-    print(name)
+awesome_names = [print(name+" is awesome") for name in names]
+
+# for name in awesome_names:
+#     print(name)

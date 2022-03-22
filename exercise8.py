@@ -4,6 +4,8 @@
 
 
 foods = ("Apple","Orange","Cherry","Melon","Apricot","Mango")
-for food in foods:
-    if "a" in food.lower():
-        print("'a' food detected: ", food)
+a_list = [print("'a' food detected:",food) for food in  foods if  "a" in food.lower()]
+# for food in foods:
+#     if "a" in food.lower():
+#         print("'a' food detected: ", food)
+
